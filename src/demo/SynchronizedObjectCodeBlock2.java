@@ -2,14 +2,17 @@ package demo;
 
 /**
  * @ClassName SynchronizedObjectCodeBlock2
- * @Description 锁对象形式1：
+ * @Description 对象锁形式1：代码块，需手动指定所对象；两个不同实例访问两个对象的同步方法
+ * 并行，各自用各自实例的对象锁
  * @Author ZFF
  * @Date 2019/9/28 10:19
  * @Version 1.0
  **/
 public class SynchronizedObjectCodeBlock2 implements Runnable
 {
-    static SynchronizedObjectCodeBlock2 instance = new SynchronizedObjectCodeBlock2();
+    static SynchronizedObjectCodeBlock2 instance1 = new SynchronizedObjectCodeBlock2();
+    static SynchronizedObjectCodeBlock2 instance2 = new SynchronizedObjectCodeBlock2();
+
     Object lock1 = new Object();
     Object lock2 = new Object();
 
@@ -48,8 +51,8 @@ public class SynchronizedObjectCodeBlock2 implements Runnable
 
     public static void main(String[] args)
     {
-        Thread t1 = new Thread(instance);
-        Thread t2 = new Thread(instance);
+        Thread t1 = new Thread(instance1);
+        Thread t2 = new Thread(instance2);
         t1.start();
         t2.start();
         while (t1.isAlive() || t2.isAlive())

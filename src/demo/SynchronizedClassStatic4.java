@@ -2,7 +2,8 @@ package demo;
 
 /**
  * @ClassName SynchronizedClassStatic4
- * @Description 类锁形式1：synchronized加在static方法
+ * @Description 类锁形式1：synchronized加在static方法；两个实例访问静态同步方法
+ * 串行，争夺类锁
  * @Author ZFF
  * @Date 2019/9/28 10:45
  * @Version 1.0

@@ -2,7 +2,8 @@ package demo;
 
 /**
  * @ClassName SynchronizedObjectMethod3
- * @Description 对象锁形式2：synchronized加在实例方法
+ * @Description 对象锁形式2：synchronized加在实例方法；两线程访问同一对象的同步方法
+ * 串行，争夺对象锁
  * @Author ZFF
  * @Date 2019/9/28 10:26
  * @Version 1.0
