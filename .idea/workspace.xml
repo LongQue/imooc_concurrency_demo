@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72c9c4f2-c904-48b4-9ce5-5e68c73b5afc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/SynchronizedDifferentMethod7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/SynchronizedException9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/SynchronizedStaticAndNormal8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/SynchronizedYseAndNo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/imooc_concurrency_demo/demo/SynchronizedObjectCodeBlock2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/imooc_concurrency_demo/demo/SynchronizedObjectCodeBlock2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/SynchronizedClassStatic4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/SynchronizedClassStatic4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/SynchronizedObjectCodeBlock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/SynchronizedObjectCodeBlock2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/SynchronizedObjectMethod3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/SynchronizedObjectMethod3.java" afterDir="false" />
-    </list>
+    <list default="true" id="72c9c4f2-c904-48b4-9ce5-5e68c73b5afc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,9 +60,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="673" />
-    <option name="y" value="18" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="587" />
+    <option name="y" value="38" />
     <option name="width" value="1373" />
     <option name="height" value="982" />
   </component>
@@ -92,6 +80,32 @@
             <path>
               <item name="imooc_concurrency_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="imooc_concurrency_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc_concurrency_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc_concurrency_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc_concurrency_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc_concurrency_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc_concurrency_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc_concurrency_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc_concurrency_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imooc_concurrency_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc_concurrency_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc_concurrency_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imooc_concurrency_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -114,6 +128,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -128,7 +145,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedException9">
+  <component name="RunManager" selected="Application.SynchronizedClassClass5">
+    <configuration name="SynchronizedClassClass5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.SynchronizedClassClass5" />
+      <module name="imooc_concurrency_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SynchronizedDifferentMethod7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.SynchronizedDifferentMethod7" />
       <module name="imooc_concurrency_demo" />
@@ -181,33 +211,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedYseAndNo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.SynchronizedYseAndNo6" />
-      <module name="imooc_concurrency_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.SynchronizedObjectCodeBlock2" />
-      <item itemvalue="Application.SynchronizedYseAndNo6" />
       <item itemvalue="Application.SynchronizedDifferentMethod7" />
       <item itemvalue="Application.SynchronizedStaticAndNormal8" />
       <item itemvalue="Application.SynchronizedException9" />
+      <item itemvalue="Application.SynchronizedClassClass5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SynchronizedClassClass5" />
         <item itemvalue="Application.SynchronizedException9" />
         <item itemvalue="Application.SynchronizedStaticAndNormal8" />
         <item itemvalue="Application.SynchronizedDifferentMethod7" />
         <item itemvalue="Application.SynchronizedObjectCodeBlock2" />
-        <item itemvalue="Application.SynchronizedYseAndNo6" />
       </list>
     </recent_temporary>
   </component>
@@ -221,22 +238,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569637107507</updated>
-      <workItem from="1569637111232" duration="11709000" />
+      <workItem from="1569637111232" duration="12005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11709000" />
+    <option name="totallyTimeSpent" value="12005000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="539" y="15" width="1098" height="785" extended-state="1" />
+    <frame x="640" y="22" width="1098" height="785" extended-state="0" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19615385" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35096154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -247,7 +264,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32924962" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924962" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34303215" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34303215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
