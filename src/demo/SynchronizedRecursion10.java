@@ -9,7 +9,7 @@ package demo;
  **/
 public class SynchronizedRecursion10
 {
-    int a = 0;
+    int b = 0;
 
     public static void main(String[] args)
     {
@@ -20,10 +20,10 @@ public class SynchronizedRecursion10
 
     private synchronized void method1()
     {
-        System.out.println("这是method1，a="+a);
-        if (a == 0)
+        System.out.println("这是method1，a="+b);
+        if (b == 0)
         {
-            a++;
+            b++;
             method1();
         }
     }
